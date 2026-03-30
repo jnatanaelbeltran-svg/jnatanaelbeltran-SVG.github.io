@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JB Multimedia</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0f172a, #1e3a8a);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #020617;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #60a5fa;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .contenido {
+            padding: 40px;
+            text-align: center;
+        }
+
+        iframe {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .seccion {
+            margin-top: 40px;
+            background: #020617;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3b82f6;
+        }
+
+        footer {
+            background-color: #020617;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo JB Multimedia">
+    <h1>JB Multimedia</h1>
+    <p>🎧 Radio en vivo y entretenimiento</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">En Vivo</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="contenido">
+
+    <h2>Escúchanos en vivo 💙</h2>
+    <p>La mejor música desde Cuauhtémoc, Chihuahua</p>
+
+    <!-- RADIO -->
+    <iframe 
+        src="https://emisoras.com.mx/embed/ranchera-cuauhtemoc/" 
+        width="100%" 
+        height="120" 
+        frameborder="0"
+        allow="autoplay">
+    </iframe>
+
+    <!-- AHORA SUENA -->
+    <div class="seccion">
+        <h3>🎶 Ahora suena</h3>
+        <p>La mejor música regional mexicana 24/7</p>
+    </div>
+
+    <!-- PROGRAMACIÓN -->
+    <div class="seccion">
+        <h3>📅 Programación</h3>
+        <ul style="list-style:none; padding:0;">
+            <li>8:00 AM - Música Variada</li>
+            <li>12:00 PM - Rancheras en Vivo</li>
+            <li>6:00 PM - Hits del Día</li>
+        </ul>
+    </div>
+
+    <!-- WHATSAPP -->
+    <div class="seccion">
+        <h3>📱 Contáctanos</h3>
+        <p>Teléfono: +52 625 582 0893</p>
+
+        <a href="https://wa.me/526255820893" target="_blank">
+            <button>📲 Enviar mensaje por WhatsApp</button>
+        </a>
+    </div>
+
+    <!-- MAPA -->
+    <div class="seccion">
+        <h3>📍 Ubicación</h3>
+
+        <iframe 
+        src="https://www.google.com/maps?q=Calle+Segunda+437+Cuauhtemoc+Chihuahua&output=embed"
+        width="100%" 
+        height="200"
+        style="border:0;">
+        </iframe>
+    </div>
+
+    <!-- SOBRE NOSOTROS -->
+    <div class="seccion">
+        <h3>📻 Sobre JB Multimedia</h3>
+        <p>
+            Somos una empresa dedicada a la transmisión de radio y contenido multimedia, 
+            llevando entretenimiento y música a toda nuestra comunidad.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 JB Multimedia - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
